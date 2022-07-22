@@ -1,0 +1,186 @@
+
+
+/************TagSelectors**************/
+
+body
+{
+  margin: 0;
+  text-align: center;
+  background-color: #EAF6F6;
+  font-family: 'Merriweather', serif;
+}
+
+h1
+{
+  font-size: 5rem;
+  top: 150px;
+  font-family: 'Sacramento', cursive;
+  line-height: 0 ;
+  margin-top: 115px;
+  color: #0AA1DD
+}
+
+h2
+{
+  font-size: 2rem;
+    color: #66BFBF;
+}
+
+h3
+{
+  font-family: 'Nunito', sans-serif;
+  color: #0AA1DD
+}
+
+p
+{
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  color: #3F4E4F;
+}
+
+a
+{
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: #92B4EC;
+  margin: 10px 10px;
+}
+
+a:hover
+{
+  color: #FFFFFF;
+}
+
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: #8CC0DE;
+  border-top-width: 5px;
+  width:15%;
+}
+
+/************Class Selectors**************/
+
+.container
+{
+  margin: 0;
+}
+
+.top-cloud
+{
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  top: 225px;
+  left: 300px;
+}
+
+.laptop1
+{
+  width: 45%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+
+}
+
+.middle-container
+{
+  background-color: #F5F0BB;
+  position: relative;
+  top: 10px;
+}
+
+.bottom-container
+{
+  background-color: #18978F;
+  padding: 40px 0 20px 0;
+}
+
+.hogwartsimg
+{
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.cpr
+{
+  color: #E8F9FD;
+  font-size: 0.75rem;
+  margin: 20px 0 0 0;
+}
+
+.skills
+{
+  margin-top: 40px;
+}
+
+.skill-row
+{
+  width: 35% ;
+  margin: 40px auto 50px auto ;
+  text-align: left;
+
+}
+
+.skill-roww
+{
+  width: 35% ;
+  margin: 70px auto 60px auto ;
+  text-align: left;
+
+}
+
+.cocimg
+{
+  margin-right: 20px;
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  float: left;
+}
+
+.hackerimg
+{
+  margin-right: 20px;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  float: left;
+}
+
+
+
+.btn
+{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Nunito', cursive;
+  color: #99FFCD;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #47B5FF;
+  background-image: -webkit-linear-gradient(top, #47B5FF, #1e314d);
+  background-image: -moz-linear-gradient(top, #47B5FF, #1e314d);
+  background-image: -ms-linear-gradient(top, #47B5FF, #1e314d);
+  background-image: -o-linear-gradient(top, #47B5FF, #1e314d);
+  background-image: linear-gradient(to bottom, #47B5FF, #1e314d);
+  text-decoration: none;
+}
